@@ -1,4 +1,5 @@
-// Negación
+// Negación (¬X) - NOT (!)
+
 var x;
 x = true;
 console.log("|", "X", "|", "NOT X", "|");
@@ -18,7 +19,9 @@ showResultOperatorNot();
 
 console.log("\n");
 
-// Conjunción (X && Y)
+
+// Conjunción (X && Y) - AND (&&)
+
 var x, y;
 x = true; y = true;
 console.log("|", "X", "|", "Y", "|", "X AND Y", "|");
@@ -60,7 +63,9 @@ showResultOperatorAnd();
 
 console.log("\n");
 
-// Disyunción (X || Y)
+
+// Disyunción (X || Y) - OR (||)
+
 x = true; y = true;
 console.log("|", "X", "|", "Y", "|", "X OR Y", "|");
 console.log("_____________________");
@@ -101,7 +106,8 @@ showResultOperatorOr();
 
 console.log("\n");
 
-// Condicional (!X || Y)
+// Condicional (!X || Y) - CONDITIONAL (! ||)
+
 x = true; y = true;
 console.log("|", "X", "|", "Y", "|", "X CONDITIONAL Y", "|");
 console.log("_____________________________");
@@ -142,7 +148,9 @@ showResultOperatorConditional();
 
 console.log("\n");
 
-// Bicondicional (X === Y)
+
+// Bicondicional (X === Y) - BICONDITIONAL (===)
+
 x = true; y = true;
 console.log("|", "X", "|", "Y", "|", "X BICONDITIONAL Y", "|");
 console.log("_______________________________");
